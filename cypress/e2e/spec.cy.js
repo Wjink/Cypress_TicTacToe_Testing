@@ -69,7 +69,7 @@ describe('template spec', () => {
     cy.contains('h2', 'O').should('be.visible');
   });
 
-  it('Test restart game', () => {
+  it('Test restart game button', () => {
     cy.get('button[data-testid="cell-0"]').click();
     cy.get('button[data-testid="cell-1"]').click();
     cy.get('button[data-testid="cell-2"]').click();
