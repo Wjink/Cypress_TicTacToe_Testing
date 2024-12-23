@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "cypress": "npx cypress open",
+    "cypress:ui": "npx cypress open",
+    "cypress": "npx cypress run",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
